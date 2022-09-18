@@ -1,0 +1,36 @@
+.header-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    max-width: 1200px;
+}
+.profile-image img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-text .profile-text-hello{
+    color: #444;
+    font-weight: 300;
+}
+.profile-text .profile-text-day {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.notification-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 50%;
+}
