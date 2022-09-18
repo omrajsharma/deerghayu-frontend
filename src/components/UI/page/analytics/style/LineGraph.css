@@ -1,0 +1,62 @@
+.analytics-line-graph-container{
+    margin-top: 20px;
+}
+.line-graph-container {
+    display: flex;
+}
+.line-instruction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 10px;
+    text-align: right; */
+}
+.graph-heading{
+    font-size: 1.5rem;
+    color: #343434;
+}
+.graph-notation{
+    font-size: .8rem;
+    color: #343434;
+}
+.line-graph-card{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.line-graph-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.graph-report{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #343434;
+    font-weight: 300;
+}
+.graph-report-field {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.graph-status-pill{
+    text-align: center;
+    padding: 6px 12px;
+    background-color: #f95046;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+}
+.text-dark {
+    color: #343434;
+    font-weight: 500;
+    font-size: 14px;
+}
