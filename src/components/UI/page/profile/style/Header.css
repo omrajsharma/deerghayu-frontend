@@ -1,0 +1,54 @@
+.header-row{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.profile-username{
+    font-weight: 300;
+    color: #343434;
+}
+.body-row{
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+}
+.body-edit{
+    text-align: right;
+    color: #818181;
+    font-size: 0.8rem;
+}
+.profile-field{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-field .field{
+    font-size: 0.8;
+    font-weight: 300;
+    color: #343434;
+}
+.setting {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.setting div{
+    margin-top: 20px;
+    text-align: right;
+}
