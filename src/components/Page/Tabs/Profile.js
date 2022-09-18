@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../../UI/page/profile/Header'
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <div className='container'>
+      <Header />
+    </div>
   )
 }
 
