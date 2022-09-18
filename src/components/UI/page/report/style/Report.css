@@ -1,0 +1,29 @@
+.report-container{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.report-card{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.report-body{
+    width: 100%;
+}
+.report-body .report-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #454545;
+}
+.report-body .report-desc{
+    font-size: 10px;
+    color: #454545;
+}
+.report-download{
+}
